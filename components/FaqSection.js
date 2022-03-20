@@ -89,9 +89,9 @@ function FaqSection() {
                     {
                         faqs.map((faq, index) => (
                             <FaqAccordion
-                                key={index}
                                 title={faq.question}
                                 description={faq.answer}
+                                key={index}
                             />
                         ))
                     }

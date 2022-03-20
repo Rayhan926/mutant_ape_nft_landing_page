@@ -8,7 +8,7 @@ const Devider = ({ children }) => {
 const Item = ({ children }) => {
     return (
         <div className="p-4">
-            <div className="text-sm leading-snug prose"><p>{children}</p></div>
+            <div className="text-sm leading-snug prose">{children}</div>
         </div>
     )
 }
@@ -22,7 +22,6 @@ const TitleSmall = ({ children }) => {
         <p className="mb-3 text-lg sm:text-xl after:left-4 md:after:left-1/2 text-left">{children}</p>
     )
 }
-
 const RoadmapBox = ({ children, alignRight = false }) => {
     return (
         <section className={`relative flex justify-between w-full mb-8 items-center ${alignRight ? '' : 'md:flex-row-reverse'}`}>
@@ -140,11 +139,11 @@ function RoadmapSection() {
                                         <Item>Total supply = 12,221</Item>
                                     </Devider>
 
-                                    <p className="italic">
-                                        <Item>
+                                    <Item>
+                                        <p className="italic">
                                             Each Generation will receive more rare traits and supply will be lower creating more value with the art becoming better with each generation.
-                                        </Item>
-                                    </p>
+                                        </p>
+                                    </Item>
                                 </RoadmapBox>
 
                                 <RoadmapBox>

@@ -5,7 +5,7 @@ import { SiDiscord } from "react-icons/si";
 function SocialSection() {
     return (
         <section className="mt-28 md:mt-32 mb-14">
-            <div className="section_title">Join Our Community</div>
+            <div className="section_title text-center">Join Our Community</div>
             <ul className="flex items-center justify-center gap-12">
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://twitter.com/MutantApeSolana" className="text-white hover:text-secondary">
